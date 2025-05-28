@@ -20,7 +20,7 @@ const urlSechema = new Schema({
         default: "",
     },
 
-}, { timestramps: ture })
+}, { timestramps: true })
 
 const Url = mongoose.model('Url', urlSechema);
 
